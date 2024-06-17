@@ -3,44 +3,74 @@ import React from "react";
 function About() {
   return (
     <div>
-      <section class="about section" id="about">
-        <h2 class="section_title">About Me </h2>
-        <span class="section_subtitle">My introduction</span>
-        <div class="container border">
-          <div className="row justify-content-center">
-            <div className="col">
-
+      <section class="about section " id="about">
+        <h2 class="section_title ">About Me </h2>
+        <span class="section_subtitle ">My introduction</span>
+        <div class="container-fluid  w-75">
+          <div className="row  ">
+            <div className="col  my-auto">
+              <div class="home_img">
+                <svg
+                  class="home_blob"
+                  viewBox="0 0 200 187"
+                  xmlns="http://www.w3.org/2000/svg"
+                  //   xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <mask id="mask0" mask-type="alpha">
+                    <path
+                      d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                    />
+                  </mask>
+                  <g mask="url(#mask0)">
+                    <path
+                      d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                    />
+                    <image
+                      class="home_blob-img"
+                      x="12"
+                      y="8"
+                      href="./img/icon.png"
+                    />
+                  </g>
+                </svg>
+              </div>
             </div>
 
-
-
-            {/* <div className="col-6">
+            <div className="col">
               <img src="./assets/img/about.png" alt="" class="about_img" />
               <div class="about_data">
-                <p class="about_description">
-                  Hi!<span class="wave">👋 </span>
-                  I'm Abhishek Tyagi, a 21-year-old engineering sophomore
-                  pursuing BTech in Information Technology. I am a passionate
-                  self-learner, Open source enthusiast, exploring and building
-                  projects👨‍💻 using various technologies. I am a frontend web
-                  developer well versed in HTML, CSS, JavaScript and stand at a
-                  beginner-intermediate level of React and Machine Learning.
-                  Back in 2012, I decided to try my hand at creating custom
-                  Tumblr themes and tumbled head first into the rabbit hole of
-                  coding and web development. Fast-forward to today, and I’ve
-                  had the privilege of building software for an advertising
-                  agency, a start-up, a huge corporation, and a digital product
-                  studio. My main focus these days is building accessible user
-                  interfaces for our customers at Klaviyo. I most enjoy building
-                  software in the sweet spot where design and engineering meet —
-                  things that look good but are also built well under the hood.
-                  In my free time, I've also released an online video course
-                  that covers everything you need to know to build a web app
-                  with the Spotify API. When I’m not at the computer, I’m
-                  usually rock climbing, reading, hanging out with my wife and
-                  two cats, or running around Hyrule searching for Korok seeds K
-                  o r o k s e e d s .
+                {/* <p class="about_description ">
+                  Hi!<span class="wave">👋 </span> */}
+                  {/* My contributions consistently yielded exceptional results,
+                  driving success in numerous cross-platform projects. With
+                  extensive experience in Mobile App Development across three
+                  companies, my achievements were underscored by earning the
+                  prestigious Employee of the Month award at EkkBaz, a
+                  recognition I received three times for my outstanding
+                  contributions */}
+                {/* </p> */}
+                <p className="about_description">
+                  Back in 2020, I decided to transition from my hardware
+                  engineering background to software development and dove
+                  headfirst into the world of coding and web technologies.
+                  Fast-forward to today, and I've had the opportunity to build
+                  software for various industries, including advertising
+                  agencies, startups, large corporations, and digital product
+                  studios. This journey has allowed me to explore applications,
+                  web servers, and cloud technologies, and I've come to truly
+                  enjoy the creativity and challenges of software development.
                 </p>
+                {/* <p className=" text-justify">
+                  When I’m not at the computer, I’m usually playing sports such
+                  as football, badminton, climbing, reading, hanging out with my
+                  friends.
+                </p> */}
                 <div class="about_button">
                   <a
                     download=""
@@ -51,7 +81,7 @@ function About() {
                   </a>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>

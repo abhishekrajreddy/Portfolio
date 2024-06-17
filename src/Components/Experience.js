@@ -2,12 +2,13 @@ import React from "react";
 
 function Experience() {
   return (
-    <div>
-      <section class="qualification section" id="qualification">
+    <div className="">
+      <section class="qualification section" id="experience">
         <h2 class="section_title">Experience</h2>
         {/* <span class="section_subtitle">
           My Educational Qualification & Work Experience
         </span> */}
+        <span class="section_subtitle">My Work Experience</span>
 
         <div class="qualification_container container">
           <div class="qualification_tabs"></div>
@@ -21,8 +22,8 @@ function Experience() {
             >
               {/* <!-- BTech IT --> */}
               <div class="qualification_data  p-2">
-                <div className="  exp-box">
-                  <h3 class="qualification_title">Data Analyst</h3>
+                <div className="  ">
+                  <h3 class="qualification_title">Frontend Developer</h3>
                   <span class="qualification_subtitle">
                     Este Medical Group London
                   </span>
@@ -46,26 +47,26 @@ function Experience() {
                   <span class="qualification_line"></span>
                 </div>
 
-                <div class="exp-box">
-                  <h3 class="qualification_title ">Senior Secondary School</h3>
+                <div class="">
+                  <h3 class="qualification_title ">React Frontend</h3>
                   <span class="qualification_subtitle">
                     Fugetron Corp Mumbai
                   </span>
                   <div class="qualification_calendar">
-                    <i class="uil uil-calendar-alt"></i> 2018 - 2020
+                    <i class="uil uil-calendar-alt"></i> 2021 - 2022
                   </div>
                 </div>
               </div>
 
               {/* <!-- School 1-10 --> */}
-              <div class="qualification_data">
-                <div className="exp-box">
-                  <h3 class="qualification_title">Secondary School</h3>
+              <div class="qualification_data p-2">
+                <div className="">
+                  <h3 class="qualification_title">Product Engineer</h3>
                   <span class="qualification_subtitle">
                     Space Enterprises Mumbai
                   </span>
                   <div class="qualification_calendar">
-                    <i class="uil uil-calendar-alt"></i> 2008 - 2018
+                    <i class="uil uil-calendar-alt"></i> 2018 - 2020
                   </div>
                 </div>
                 <div>

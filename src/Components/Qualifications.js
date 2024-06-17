@@ -1,4 +1,6 @@
 import React from "react";
+import { useAnimate } from "framer-motion";
+import { FiMousePointer } from "react-icons/fi";
 
 function Qualifications() {
   return (
@@ -6,19 +8,17 @@ function Qualifications() {
       {" "}
       <section class="qualification section" id="qualification">
         <h2 class="section_title">Qualifications</h2>
-        <span class="section_subtitle">
-          My Educational Qualification & Work Experience
-        </span>
+        <span class="section_subtitle">My Educational Qualifications</span>
 
-        <div class="qualification_container container">
+        <div class="qualification_container container1">
           <div class="qualification_tabs">
             <div class="qualification_button button-flex" id="educationheader">
               <i class="uil uil-graduation-cap qualification_icon"></i>Education
             </div>
 
-            <div class="qualification_button button-flex" id="workheader">
+            {/* <div class="qualification_button button-flex" id="workheader">
               <i class="uil uil-briefcase-alt qualification_icon"></i>Work
-            </div>
+            </div> */}
           </div>
 
           <div class="qualification_sections">

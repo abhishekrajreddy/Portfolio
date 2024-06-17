@@ -1,25 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 
-function Skills() {
-  const [lanToggle, setLanToggle] = useState(true);
-  const [libToggle, setLibToggle] = useState(false);
-  const [toolToggle, setToolToggle] = useState(false);
-
+function Testskills() {
   return (
-    <div className="">
+    <main className="skills_main">
       <section class="skills section" id="skills">
         <h1 class="section_title">Skills</h1>
         <span class="section_subtitle">My Technical Skills</span>
         <div class="skills_container container1 grid">
           {/* <!-- Skill Set 1 --> */}
-          <div
-            class={
-              lanToggle
-                ? "skill skills_content skills_open"
-                : "skill skills_content"
-            }
-          >
-            <div class="skills_header" onClick={() => setLanToggle(!lanToggle)}>
+          <div class="skill skills_content skills_open">
+            <div class="skills_header">
               <i class="uil uil-arrow skills_icon"></i>
 
               <div>
@@ -36,9 +26,9 @@ function Skills() {
               <div class="skills_data">
                 <div class="skills_titles">
                   <span class="single_skill_icon">
-                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-java"></i>
                   </span>
-                  <h3 class="skills_name">JavaScript</h3>
+                  <h3 class="skills_name">Java</h3>
                 </div>
                 <div class="skills_bar"></div>
               </div>
@@ -76,6 +66,16 @@ function Skills() {
               <div class="skills_data">
                 <div class="skills_titles">
                   <span class="single_skill_icon">
+                    <i class="fab fa-js-square"></i>
+                  </span>
+                  <h3 class="skills_name">JavaScript</h3>
+                </div>
+                <div class="skills_bar"></div>
+              </div>
+
+              <div class="skills_data">
+                <div class="skills_titles">
+                  <span class="single_skill_icon">
                     <i class="fab fa-sass"></i>
                   </span>
                   <h3 class="skills_name">SASS</h3>
@@ -86,14 +86,8 @@ function Skills() {
           </div>
 
           {/* <!-- Skill Set 2 --> */}
-          <div
-            class={
-              libToggle
-                ? "skill skills_content skills_open"
-                : "skill skills_content"
-            }
-          >
-            <div class="skills_header" onClick={() => setLibToggle(!libToggle)}>
+          <div class="skill skills_content">
+            <div class="skills_header">
               <i class="uil uil-brackets-curly skills_icon"></i>
 
               <div>
@@ -158,17 +152,8 @@ function Skills() {
           </div>
 
           {/* <!-- Skill Set 3 --> */}
-          <div
-            class={
-              toolToggle
-                ? "skill skills_content skills_open"
-                : "skill skills_content"
-            }
-          >
-            <div
-              class="skills_header"
-              onClick={() => setToolToggle(!toolToggle)}
-            >
+          <div class="skill skills_content">
+            <div class="skills_header">
               <i class="uil uil-wrench skills_icon"></i>
 
               <div>
@@ -205,7 +190,7 @@ function Skills() {
               <div class="skills_data">
                 <div class="skills_titles">
                   <span class="single_skill_icon external-logo">
-                    <img src="./img/Firebase.png" alt="" />
+                    <img src="./assets/img/Firebase.png" alt="" />
                   </span>
                   <h3 class="skills_name">Firebase</h3>
                 </div>
@@ -246,8 +231,8 @@ function Skills() {
           </div>
         </div>
       </section>
-    </div>
+    </main>
   );
 }
 
-export default Skills;
+export default Testskills;
