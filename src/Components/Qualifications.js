@@ -74,7 +74,7 @@ function Qualifications() {
                     New Era Public School, Dholpur
                   </span>
                   <div class="qualification_calendar">
-                    <i class="uil uil-calendar-alt"></i> 2008 - 2018
+                    <i class="uil uil-calendar-alt"></i> 2012 - 2015
                   </div>
                 </div>
                 <div>
